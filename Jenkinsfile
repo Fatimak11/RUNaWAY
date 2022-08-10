@@ -17,7 +17,7 @@ pipeline {
         stage('Build') {
             steps {
                 
-                sh 'docker build -t skag07/saeed-belt2-day4:latest .'
+                sh 'docker build -t fatimahk27/runaway:1.0 .'
 
                 
             }
@@ -34,7 +34,7 @@ pipeline {
         stage('Push') {
 
 			steps {
-				sh 'docker push skag07/saeed-belt2-day4:latest'
+				sh 'docker push fatimahk27/runaway:1.0'
 			}
 		}
 

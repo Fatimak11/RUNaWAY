@@ -714,9 +714,9 @@ function animate() {
     updateEnemies();
 
     // draw the score
-    ctx.fillText('Score: ' + score + 'm', canvas.width - 160, 30);
-    ctx.fillText('Name: ' + 'Saeed Alghamdi', canvas.width - 160, 45);
-    ctx.fillText('Class: ' + 'DevOps onsite', canvas.width - 160, 60);
+    ctx.fillText('Score: ' + score + 'm', canvas.width - 210, 30);
+    ctx.fillText('Name: ' + 'Fatimah Al-khamees', canvas.width - 210, 45);
+    ctx.fillText('Class: ' + 'DevOps online', canvas.width - 210, 60);
 
     // spawn a new Sprite
     if (ticker % Math.floor(platformWidth / player.speed) === 0) {
@@ -816,7 +816,7 @@ function startGame() {
   player.reset();
   ticker = 0;
   stop = false;
-  score = 0;
+  score = 500;
   platformHeight = 2;
   platformLength = 15;
   gapLength = 0;
