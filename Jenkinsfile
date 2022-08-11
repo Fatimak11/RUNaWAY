@@ -7,11 +7,11 @@ pipeline {
     AWS_ACCESS_KEY_ID     = credentials('Fatimah-K-aws-secret-key-id')
     AWS_SECRET_ACCESS_KEY = credentials('Fatimah-K-aws-secret-access-key')
     ARTIFACT_NAME = 'Dockerrun.aws.json'
-    AWS_S3_BUCKET = 'fatimah-k-belt2d4-artifacts-123456'
+    AWS_S3_BUCKET = 'fatimah-k-belt2-artifacts-123456'
     AWS_EB_APP_NAME = 'RUNaWAY'
     AWS_EB_ENVIRONMENT_NAME = 'Runaway-env'
     AWS_EB_APP_VERSION = "${BUILD_ID}"
-    
+
   }
 
   stages {
